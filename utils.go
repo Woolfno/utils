@@ -1,6 +1,6 @@
 package utils
 
-func Contains(a []string, x string) bool {
+func InSlice(a []string, x string) bool {
 	for _, s := range a {
 		if s == x {
 			return true
